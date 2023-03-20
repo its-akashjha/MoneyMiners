@@ -9,6 +9,7 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import { BrowserRouter, BrowserRouter as Redirect ,Link} from 'react-router-dom';
 function App() {
   return (
     <>
@@ -21,7 +22,7 @@ function App() {
           <Route exact path='/team' component={Team} />
           <Route exact path='/pricing' component={Pricing} />
           <Route exact path='/journal' component={Blog} />
-          <Route exact path='/contact' component={Contact} />
+          <Route exact path='/contact' component={Contact}></Route>
         </Switch>
         <Footer />
       </Router>
