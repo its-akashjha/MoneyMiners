@@ -2,7 +2,7 @@ import React from "react"
 import Heading from "../common/heading/Heading"
 import "./about.css"
 import { homeAbout } from "../../dummydata"
-import Awrapper from "./Awrapper"
+// import Awrapper from "./Awrapper"
 
 const AboutCard = () => {
   return (
@@ -32,7 +32,7 @@ const AboutCard = () => {
           </div>
         </div>
       </section>
-      <Awrapper />
+      {/* <Awrapper /> */}
     </>
   )
 }
